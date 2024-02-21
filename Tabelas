@@ -8,7 +8,7 @@
     <table border="1" width="500">
       <thead>
         <tr>
-          <th colspan="4"><font color="Pink">Mercadinho UniSalesiano</font></th>
+          <th colspan="4" bgcolor="gray"><font color="Pink">Mercadinho UniSalesiano</font></th>
         </tr>
         <tr>
           <th>ID</th>
