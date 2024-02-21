@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    real N1, N2, Media
+    cadeia NomeAluno
+
+    escreva("Digite o seu nome")
+    leia(NomeAluno)
+    escreva("Digite a primeira nota")
+    leia(N1)
+    escreva("Digite a segunda nota")
+    leia(N2)
+
+    Media = ((N1+N2)/2)
+
+    escreva(NomeAluno + " Sua média é: " + Media + "\n")
+    se(Media >= 7){
+      escreva(" Você foi aprovado!!!")
+    } senao {
+       escreva(" Você foi reprovado :c")
+    }
+  }
+}
