@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Tabelas</title>
+  </head>
+  <body>
+    <h1>Tabelas</h1>
+
+    <table border="1" width="500">
+      <thead>
+        <tr>
+          <th colspan="4"><font color="Pink">Mercadinho UniSalesiano</font></th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Abacaxi</td>
+          <td>50</td>
+          <td>R$ 7,55</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Abobrinha</td>
+          <td>20</td>
+          <td>R$ 2,50</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
