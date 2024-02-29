@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form method="post" action="forms.html" name="FrmTeste" id="FrmTeste" 
+    enctype="multipart/form-data">
+
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" 
+    placeholder="Informe seu nome!" size="50"
+    maxlength="10" value="Caio Martos">
+    <br/>
+    <label>Número</label>
+    <input type="number" name="numero" id="number"
+    placeholder="Digite um número" step="2" max="10"
+    min="0">
+    <br>
+    <label for="senha">Senha</label>
+    <input type="password" name="senha" id="senha">
+    <br>
+    <label for="data">Data</label>
+    <input type="date" name="data" id="data">
+    <br>
+    <label for="datahora">Data e Hora</label>
+    <input type="datetime-local" name="datahora" id="datahora">
+    <br>
+    <input type="hidden" name="oculto" id="oculto">
+    <br>
+    <textarea rows="10" cols="50" name="obs" id="obs"></textarea>
+    <br>
+    <label for="selecao">Seleção</label>
+    <select name="selecao" id="selecao">
+        <option value="0" disabled selected>Selecione o valor</option>
+        <optgroup label="frutas">
+            <option value="jaca">Jaca</option>
+            <option value="pera">Pera</option>
+            <option value="uva">Uva</option>
+            <option value="banana">Banana</option>
+        </optgroup>
+        
+
+        <optgroup label="legumes">
+            <option value="pepino">Pepino</option>
+            <option value="chuchu">Chuchu</option>
+        </optgroup>
+    </select>
+
+    <br>
+    <input type="submit" name="enviar" id="enviar"
+    value="Enviar">
+    <input type="reset" name="limpar" id="limpar"
+    value="Limpar">
+
+    </form> 
+</body>
+</html>
